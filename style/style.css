@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Menu {
+    width: 100%;
+    min-height: 68px;
+    height: 5vh;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+#Menu img{
+    max-height: 100%;
+}
+.Promocion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 68px;
+    height: 95vh;
+    background-color: rgb(255, 255, 255);
+}
+.Promocion h1{
+    background-color: #EE7E71;
+    text-align: center;
+    width: 100%;
+    padding: 2% 8%;
+    display: flex;
+    font-size: 1.8rem;
+    font-family: roboto;
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.Promocion img{
+    background-color: white;
+    max-height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.Promocion h2{
+    background-color: #D53032;
+    text-align: center;
+    width: 100%;
+    padding: 2% 8%;
+    display: flex;
+    font-size: 1.3rem;
+    font-family: roboto;
+    font-weight: lighter;
+    justify-content: center;
+}
+.Promocion button{
+    background-color: #D53032;
+    height: 5vh;
+    margin: 2%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
