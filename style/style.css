@@ -319,7 +319,7 @@ h1 {
   margin-left: 3%;
   border-radius: 200px;
 }
-.Equipo .recuadro #contenido h1{
+.Equipo .recuadro #contenido h4{
   font-size: 1.2rem;
   font-weight: normal;
 
@@ -342,4 +342,7 @@ h1 {
 }
 .testimonio h2 {
   text-align: center;
+}
+h4{
+    font-size: 2rem;
 }
