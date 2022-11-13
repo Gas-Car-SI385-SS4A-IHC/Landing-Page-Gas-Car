@@ -178,6 +178,9 @@ h1 {
   width: 15rem;
   flex-direction: column;
 }
+.lista{
+    display:flex;
+}
 
 .cuadro button{
   background-color: #EE7E71;
@@ -190,24 +193,13 @@ h1 {
 .cuadro h2{
   margin: 0;
 }
-h3{
-    margin-top: 30px; color: gray;}
-    h1{
-    margin-left: 20px;
-    }
-    .imagen{
-    float: left;
-    margin-Left: 200px; margin-top: 30px;
-    }
-    .caracteristicas{float: right;
-    }
-    @import url(https://cdnj5.cloudfLare.com/ajax/Libs/font-avesome/6.2.6/c55/att.min.css);
-    body {
-    
-    background-color: #F2F4F8;}
-    .texto{ 
-    margin-top: 30px; margin-bottom: 20px; float:center;
-    text-aLign: left;}
-    p{
-    font-size:larger;
-    }
+.Caracteristicas{
+    display: flex;
+    flex-direction: row;
+}
+.derecha li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
