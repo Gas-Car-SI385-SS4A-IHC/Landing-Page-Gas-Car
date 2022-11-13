@@ -1,3 +1,208 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Menu {
+    width: 100%;
+    min-height: 68px;
+    height: 5vh;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+#Menu img{
+    max-height: 100%;
+}
+.Promocion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 68px;
+    height: 95vh;
+    background-color: rgb(255, 255, 255);
+}
+.Promocion h1{
+  background-color: #EE7E71;
+    text-align: center;
+    width: 100%;
+    padding: 2% 8%;
+    display: flex;
+    font-size: 1.8rem;
+    font-family: roboto;
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.Promocion img{
+    background-color: white;
+    max-height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.Promocion h2{
+    background-color: #D53032;
+    text-align: center;
+    width: 100%;
+    padding: 2% 8%;
+    display: flex;
+    font-size: 1.3rem;
+    font-family: roboto;
+    font-weight: lighter;
+    justify-content: center;
+}
+.Promocion button{
+    background-color: #D53032;
+    height: 5vh;
+    margin: 2%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+footer h1 {
+background-color: #EE7E71;
+    text-align: center;
+    width: 100%;
+    padding: 2% 8%;
+    display: flex;
+    font-size: 1.8rem;
+    font-family: roboto;
+    font-weight: lighter;
+    justify-content: center;
+}
+.planes{
+    background-color: #2d1624;
+    width: 100%;
+
+}
+.title h2{
+    color:white;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 50px;
+    
+}
+
+.subtitle h4{
+    font-size: 23px;
+    text-align: center;
+}
+
+.texto{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    line-height: 24px;
+}
+
+.card{
+   padding: 25px 35px;
+   margin:100px; 
+   text-align: center;
+   overflow: hidden;
+   background-color: #c98888;
+   height: 450px;
+   width: 335px;
+   border-radius: 25px;
+   text-align: justify;
+
+}
+
+.card .button1{
+    background-color: #f9004d;
+    color:rgb(0, 0, 0);
+    padding: 9px 30px;
+    border-radius:30px;
+    border:2px solid;
+    text-decoration: none;
+
+}
+.card .leer{
+    font-weight: bold;
+    color:rgb(164, 45, 83);
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 16.5px;
+}
+h1 {
+  background-color: red;
+  text-align: center;
+  padding: 20px 40px;
+}
+.quote{
+  display: flex;
+}
+.derecha{
+  width: 50vw;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.izquierda p{
+  text-align: rig;
+  font-size: 1rem;
+  font-family: roboto;
+
+
+  padding: 0;
+}
+.izquierda{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.cuadro{
+  display: flex;
+  border: 1px solid black;
+  max-height: 20rem;
+  padding: 2rem;
+  max-width: 30rem;
+  width: 15rem;
+  flex-direction: column;
+}
+.lista{
+    display:flex;
+}
+
+.cuadro button{
+  background-color: #EE7E71;
+  display: block;
+}
+.cuadro input{
+  display:block;
+  margin: 0.2rem;
+}
+.cuadro h2{
+  margin: 0;
+}
+.Caracteristicas{
+    display: flex;
+    flex-direction: row;
+}
+.derecha li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .fondo {
   background-color: #C1C7CD;
   align-items: center;
