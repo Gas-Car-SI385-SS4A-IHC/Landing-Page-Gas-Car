@@ -121,7 +121,7 @@ background-color: #EE7E71;
 }
 
 .card .button1{
-    background-color: #f9004d;
+    background-color: #D53032;
     color:rgb(0, 0, 0);
     padding: 9px 30px;
     border-radius:30px;
@@ -136,3 +136,49 @@ background-color: #EE7E71;
     line-height: 50px;
     font-size: 16.5px;
 }
+
+.titlen h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin: 5px auto;
+    font-size: 45px;
+    
+}   
+.card{
+    padding: 25px 35px;
+    margin:100px; 
+    overflow: hidden;
+    background-color: #c98888;
+    height: 450px;
+    width: 335px;
+    border-radius: 25px;
+    text-align: justify;
+ 
+ }
+.figma .button1{
+    background-color: #D53032;
+    color:rgb(0, 0, 0);
+    padding: 9px 30px;
+    border-radius:30px;
+    border:2px solid;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+}
+.texto2{
+    display:flex;
+    line-height: 30px;
+    text-align: justify;
+    
+}
+.card2{
+    padding: 25px 35px;
+    margin:100px; 
+    overflow: hidden;
+    background-color: #c98888;
+    height: 310px;
+    width: 360px;
+    border-radius: 25px;
+    text-align: justify;
+ 
+ }
